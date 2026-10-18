@@ -1,0 +1,235 @@
+body {
+    font-family: "Inter", Arial, sans-serif;
+    color: #1f1f1f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: 600;
+    color: #1b224c;
+}
+
+.nav-link {
+    color: #1f1f1f;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: #b13679;
+}
+
+.icon-link {
+    color: #1f1f1f;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #b13679;
+    color: white;
+    border-radius: 0 0 80px 0;
+    margin: 0;
+}
+
+.hero h1 {
+    font-size: 44px;
+}
+
+.title {
+    color: #1b224c;
+}
+
+.see-more {
+    color: #555;
+    font-size: 14px;
+}
+
+.product {
+    border: none;
+    color: #1f1f1f;
+}
+
+.product img {
+    background-color: #f2f4ff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.product h6 {
+    font-size: 15px;
+}
+
+.product:hover h6 {
+    color: #b13679;
+}
+
+.dot {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.dot.big {
+    width: 20px;
+    height: 20px;
+}
+
+.navy {
+    background-color: #1b224c;
+}
+
+.orange {
+    background-color: #d35400;
+}
+
+.gold {
+    background-color: #c9a27e;
+}
+
+.banner {
+    border-radius: 0 0 60px 0;
+    color: white;
+}
+
+.banner.pink {
+    background-color: #b13679;
+}
+
+.banner.navy {
+    background-color: #1b224c;
+}
+
+.black-friday {
+    background-color: #222222;
+}
+
+.timer {
+    background-color: white;
+    border-radius: 4px;
+    width: 220px;
+}
+
+.timer div {
+    flex: 1;
+    padding: 5px;
+}
+
+.timer small {
+    font-size: 11px;
+    color: #777;
+}
+
+.timer p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.product.dark {
+    background-color: transparent;
+    color: white;
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e3000f;
+    color: white;
+    font-size: 11px;
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+
+.old {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: #f2f4ff;
+}
+
+.footer h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    display: block;
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.footer .social {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #e3e6f5;
+    color: #1b224c;
+}
+
+.btn-navy {
+    background-color: #1b224c;
+    color: white;
+}
+
+.btn-navy:hover {
+    background-color: #2c3570;
+    color: white;
+}
+
+.btn-pink {
+    background-color: #b13679;
+    color: white;
+    padding: 10px;
+}
+
+.btn-pink:hover {
+    background-color: #922a63;
+    color: white;
+}
+
+.gallery-main,
+.gallery-small {
+    background-color: #f2f4ff;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.details th {
+    font-weight: 600;
+    font-size: 14px;
+    width: 55%;
+}
+
+.details td {
+    color: #b13679;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero {
+        border-radius: 0 0 40px 0;
+    }
+}
