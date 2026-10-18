@@ -233,3 +233,8 @@ a {
         border-radius: 0 0 40px 0;
     }
 }
+
+.hero img {
+    width: 100%;
+    max-width: 330px;
+}
